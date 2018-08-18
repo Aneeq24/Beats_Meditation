@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.las.atmosherebinauraltherapy">
+
+    <application
+        android:name=".AtmoshereBinaural"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <service android:name=".services.AudioService" />
+        <service android:name=".services.BgMusicService" />
+
+        <activity
+            android:name=".views.activities.SplashScreen"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".views.activities.TutorialActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".views.activities.HomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".views.activities.MusicPlayerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".views.activities.AboutMe"
+            android:screenOrientation="portrait" />
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="9d5650d1243959aa5c15d62ff6e341755ec4f780" />
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+</manifest>

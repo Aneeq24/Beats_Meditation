@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="activity"
+            type="com.las.atmosherebinauraltherapy.views.fragments.VolumeSettingFragment" />
+    </data>
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.las.atmosherebinauraltherapy.views.fragments.VolumeSettingFragment">
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/wave_volume_layout"
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/background_music_list">
+
+            <TextView
+                android:id="@+id/Wave_text"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/raleway"
+                android:gravity="center"
+                android:text="Wave Volume"
+                android:textColor="@color/whiteColor"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toTopOf="@+id/wave_volume"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginLeft="8dp" />
+
+            <SeekBar
+                android:id="@+id/wave_volume"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:max="50"
+                android:maxHeight="10dp"
+                android:progressDrawable="@drawable/volume_seekbar"
+                android:thumb="@drawable/seekbar_thumb"
+                app:layout_constraintBottom_toTopOf="@+id/linearLayout_three"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/Wave_text" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout_three"
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/seekbarUnselectedColor"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/wave_volume" />
+        </android.support.constraint.ConstraintLayout>
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/background_volume_layout"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/wave_volume_layout">
+
+            <TextView
+                android:id="@+id/background_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:fontFamily="@font/raleway"
+                android:text="Background Volume"
+
+                android:textColor="@color/whiteColor"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toTopOf="@+id/background_volume"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                android:layout_marginLeft="8dp" />
+
+            <SeekBar
+                android:id="@+id/background_volume"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:max="30"
+                android:maxHeight="10dp"
+                android:progressDrawable="@drawable/volume_seekbar"
+                android:thumb="@drawable/seekbar_thumb"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/background_textView" />
+
+<!--
+            <LinearLayout
+                android:id="@+id/linearLayout_four"
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:background="@color/seekbarUnselectedColor"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />-->
+
+        </android.support.constraint.ConstraintLayout>
+    </android.support.constraint.ConstraintLayout>
+</layout>

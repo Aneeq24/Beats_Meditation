@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Binaural Beats Meditation</string>
+
+    <string name="npa" translatable="false">npa</string>
+    <string name="publisher_id" translatable="false">pub-7883837684925648</string>
+    <string name="privacy_policy_url" translatable="false">https://s3-us-west-2.amazonaws.com/localappsstore/PrivacyPolicy.htm</string>
+    <string name="is_consent_first_time_requested" translatable="false">Is Consent First Time Requested</string>
+
+
+
+    <string name="start">start</string>
+    <string name="skip">Skip</string>
+    <string name="set_time">Set Time</string>
+    <string name="_3">3</string>
+    <string name="_2">2</string>
+    <string name="_1">1</string>
+    <string name="timer">Timer</string>
+
+    <string name="drawerOpen">openDrawer</string>
+    <string name="drawerClose">closeDrawer</string>
+    <string name="handFreeAlert">Use Headphones to Experience Binaural Beats</string>
+
+    <string name="exit_appliction">Exit Appliction</string>
+    <string name="press_again_to_exit">Are you sure you want to exit the application ?</string>
+    <string name="text_no">No</string>
+    <string name="text_yes">Yes</string>
+    <string name="rate_us">Rate us</string>
+
+    <string name="banner_ad_id">ca-app-pub-7883837684925648/3926466759</string>
+    <string name="interstial_ad_id">ca-app-pub-7883837684925648/1638504320</string>
+    <string name="share_app">Share App</string>
+    <string name="more_apps">More App</string>
+
+
+    <string name="about_me">
+</string>
+
+</resources>

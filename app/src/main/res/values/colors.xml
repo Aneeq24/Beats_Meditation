@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0a0909</color>
+    <color name="colorPrimaryDark">#040303</color>
+    <color name="colorAccent">#c8c8c8</color>
+    
+    <color name="spiritFirstTutorialColor">#ffda43</color>
+    <color name="spiriSecondTutorialColor">#f7db69</color>
+    <color name="brainFirstTutorialColor">#00fa9f</color>
+    <color name="brainSecondTutorialColor">#56d81d</color>
+    <color name="bodyFirstTutorialColor">#fa0087</color>
+    <color name="bodySecondTutorialColor">#8612df</color>
+    <color name="sleepFirstTutorialColor">#0c0030</color>
+    <color name="sleepSecondTutorialColor">#00148c</color>
+
+    <color name="whiteColor">#ffffff</color>
+    <color name="blackColor">#000000</color>
+
+    <color name="layouColor">#e9ebf3</color>
+
+
+    <color name="transparentColor">#00ffffff</color>
+
+    <color name="bodyTextColor">#5b2c6c</color>
+    <color name="brainTextColor">#e9ebf3</color>
+    <color name="sleepTextColor">#2e74e5</color>
+    <color name="spirirtTextColor">#504b34</color>
+
+    <color name="seekbarSelectedColor">#858585</color>
+    <color name="seekbarUnselectedColor">#cccccc</color>
+
+    <color name="settingBgColor">#ebebeb</color>
+
+    <color name="menuItemTextColor">#cdcdcd</color>
+
+    <color name="transparentBlackColor">#77000000</color>
+
+    <color name="splashTextColor">#666566</color>
+
+
+    <!--#969696-->
+
+</resources>
